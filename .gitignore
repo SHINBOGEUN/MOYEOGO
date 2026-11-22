@@ -1,0 +1,32 @@
+# Dependencies and generated output
+node_modules/
+.expo/
+dist/
+web-build/
+.gradle-cache/
+.apk-download/
+.codex-tmp/
+.obsidian/
+android/app/debug.keystore
+*.keystore
+*.jks
+
+# Local secrets
+.env
+.env.*
+!.env.example
+android/app/google-services.json
+google-services.json
+.secrets/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Test and coverage output
+coverage/
+*.log
+.ui-*.png
+moyeogo-screen.png
